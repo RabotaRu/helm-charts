@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  dochub:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2022-02-01T22:53:47.322698981Z"
+    dependencies:
+    - name: plantuml
+      repository: https://stevehipwell.github.io/helm-charts/
+      version: 3.6.0
+    description: A Helm chart for DocHub
+    digest: 289238343ad29b56e9d10edc11dbeb3731e7c59ee98454056c8c46f9e17a1f0e
+    maintainers:
+    - email: zhiylaev.dmitriy@gmail.com
+      name: Dmitriy Zhilyaev
+    name: dochub
+    type: application
+    urls:
+    - https://github.com/RabotaRu/helm-charts/releases/download/dochub-0.1.2/dochub-0.1.2.tgz
+    version: 0.1.2
+generated: "2022-02-01T22:53:47.322705481Z"
