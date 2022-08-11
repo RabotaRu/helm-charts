@@ -21,6 +21,16 @@ entries:
   http-proxy-metrics-collector:
   - apiVersion: v2
     appVersion: 0.0.0
+    created: "2022-08-11T11:54:28.527548811Z"
+    description: A Helm chart for Kubernetes
+    digest: 677d3fe44831603277f5a78a7783ba56dac23c95e161513abbfad2497394ff82
+    name: http-proxy-metrics-collector
+    type: application
+    urls:
+    - https://github.com/RabotaRu/helm-charts/releases/download/http-proxy-metrics-collector-0.1.1/http-proxy-metrics-collector-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.0.0
     created: "2022-08-11T11:52:33.73109203Z"
     description: A Helm chart for Kubernetes
     digest: 919a6eee412033dfca0539caff928788cc6366a42b842b8a48a33c736b6e7cae
@@ -29,4 +39,4 @@ entries:
     urls:
     - https://github.com/RabotaRu/helm-charts/releases/download/http-proxy-metrics-collector-0.1.0/http-proxy-metrics-collector-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-11T11:52:33.73109633Z"
+generated: "2022-08-11T11:54:28.527561512Z"
