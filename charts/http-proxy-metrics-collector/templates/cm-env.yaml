@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "this.fullname" . }}-env
+  labels: {{- include "this.labels" . | nindent 4 }}
+data:
+{{ toYaml .Values.env | nindent 2 }}
